@@ -1,0 +1,22 @@
+.app {
+  min-height: 100vh;
+  background-image: url("./image/bg2.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.app > .app__main__content {
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.app__main_info__content {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}

@@ -1,0 +1,46 @@
+.prodhanDesk {
+  flex: 1;
+  min-width: 300px !important;
+  box-shadow: 0px 10px 32px rgba(255, 255, 255, 0.3);
+  max-height: 300px;
+  overflow-y: hidden;
+  border: 1px solid gray;
+  position: relative;
+}
+.prodhanDesk__btn {
+  position: absolute;
+  right: 0;
+  padding: 5px 20px;
+  margin-top: 5px;
+  border: none;
+  background: pink;
+  box-shadow: 0 13px 12px rgba(255, 255, 255, 0.5);
+  margin-right: 10px;
+}
+.prodhanDesk__btn:hover {
+  cursor: pointer;
+}
+
+.prodhanDesk__head {
+  padding: 10px 20px;
+  color: #8a2435;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}
+
+.prodhanDesk__body > ul {
+  list-style: none;
+}
+
+.prodhanDesk__body > ul > li {
+  font-size: 13px;
+  padding: 10px;
+  color: #8a2435;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}
+
+.prodhanDesk__body > ul > li:hover {
+  background: #fff;
+}

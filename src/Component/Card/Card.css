@@ -1,0 +1,31 @@
+.card {
+  flex: 1;
+  box-shadow: 0 15px 32px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  padding: 10px 50px;
+}
+
+.card__body {
+  display: flex;
+  font-style: italic;
+}
+
+.card__body > ul {
+  list-style: square;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__body > ul > li:hover {
+  padding: 10px 20px;
+  background-color: rgb(207, 207, 207);
+}
+
+.card__body > ul > li:first-child {
+  color: red;
+}
+
+.card__body > ul > li:last-child {
+  color: green;
+}

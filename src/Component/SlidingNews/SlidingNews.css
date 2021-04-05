@@ -1,0 +1,13 @@
+.slidingNews {
+  min-height: 20px;
+  display: flex;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
+}
+
+.slidingNews > p {
+  padding: 0 10px;
+  color: green;
+  font-weight: 400;
+}

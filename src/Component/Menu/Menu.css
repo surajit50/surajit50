@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  min-height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.menu__option {
+  display: flex;
+}
